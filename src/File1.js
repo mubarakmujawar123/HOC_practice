@@ -5,7 +5,7 @@ class File1 extends React.Component {
     return (
       <>
         <h1 onMouseEnter={this.props.onIncreament}>File 1</h1>
-        <h2>{this.props.count}</h2>
+        <h2>Count: {this.props.count}</h2>
       </>
     );
   }
